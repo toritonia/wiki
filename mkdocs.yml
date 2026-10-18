@@ -16,8 +16,6 @@ theme:
     - scheme: default
       primary: custom
       accent: custom
-extra_css:
-  - stylesheets/extra.css
   
   features:
     - navigation.sections
@@ -26,6 +24,9 @@ extra_css:
     - search.suggest
     - search.highlight
     - content.code.copy
+    
+extra_css:
+  - stylesheets/extra.css
 
 # 検索機能
 plugins:
