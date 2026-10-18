@@ -14,8 +14,8 @@ theme:
 
   palette:
     - scheme: default
-      primary: indigo
-      accent: purple
+      primary: custom
+      accent: custom
 
   features:
     - navigation.sections
