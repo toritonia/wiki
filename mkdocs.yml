@@ -14,8 +14,8 @@ theme:
 
   palette:
     - scheme: default
-      primary: custom
-      accent: custom
+      primary: green
+      accent: green
   
   features:
     - navigation.sections
@@ -24,9 +24,6 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
-    
-extra_css:
-  - stylesheets/extra.css
   
 font:
     text: Noto Sans JP         # 本文用フォント（Google Fontsから自動読み込み）
