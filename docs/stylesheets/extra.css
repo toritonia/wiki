@@ -1,0 +1,11 @@
+
+:root {
+  /* メインカラー */
+  --md-primary-fg-color: #166c37;
+  --md-primary-fg-color--light: #278a50;
+  --md-primary-fg-color--dark: #0d4825;
+
+  /* アクセントカラー */
+  --md-accent-fg-color: #166c37;
+  --md-accent-fg-color--transparent: #166c371a;
+}
