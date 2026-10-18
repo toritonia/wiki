@@ -1,0 +1,38 @@
+
+# サイトの基本情報
+site_name: トリトニア女学院 Wiki
+site_description: トリトニア女学院の公式Wiki
+
+# 記事の保存場所
+docs_dir: docs
+site_dir: site
+
+# Materialテーマ
+theme:
+  name: material
+  language: ja
+
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: purple
+
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+# 検索機能
+plugins:
+  - search:
+      lang: ja
+
+# ページのメニュー構成
+nav:
+  - ホーム: index.md
+  - 学院案内: about/index.md
+  - カリキュラム: curriculum/index.md
+  - 学院活動: activities/index.md
