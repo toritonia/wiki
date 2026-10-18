@@ -3,7 +3,14 @@ site_name: トリトニア女学院 Wiki
 site_description: トリトニア女学院の公式Wiki
 docs_dir: docs
 site_dir: site
+repo_url: https://github.com/toritonia/wiki
+edit_uri: edit/main/docs/
 
+theme:
+  name: material
+  features:
+    - content.action.edit
+    
 theme:
   name: material
   language: ja
