@@ -27,7 +27,11 @@ theme:
     
 extra_css:
   - stylesheets/extra.css
-
+  
+font:
+    text: Noto Sans JP         # 本文用フォント（Google Fontsから自動読み込み）
+    code: JetBrains Mono       # コードブロック用等幅フォント
+    
 # 検索機能
 plugins:
   - search:
