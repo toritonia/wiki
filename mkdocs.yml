@@ -37,6 +37,18 @@ plugins:
 # ページのメニュー構成
 nav:
   - ホーム: index.md
-  - 学院案内: about/index.md
-  - カリキュラム: curriculum/index.md
-  - 学院活動: activities/index.md
+  - はじめに:
+      - 学院とWikiについて: getting-started/index.md
+      - 編集リクエスト: getting-started/request-edit.md
+  - 生徒データベース: students/index.md
+  - 教職員データベース: staff/index.md
+  - 活動記録:
+      - 一覧: activities/index.md
+      - 広報部: activities/clubs/publicity.md
+      - 放課後喫茶部: activities/clubs/cafe.md
+      - 放課後アイドル部: activities/clubs/idol.md
+  - 付録:
+      - 用語集: appendix/glossary.md
+      - 参考リンク: appendix/links.md
+      - 変更履歴: appendix/changelog.md
+      - 掲載ポリシー: appendix/publication-policy.md
