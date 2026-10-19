@@ -25,7 +25,7 @@ theme:
     - search.highlight
     - content.code.copy
   
-font:
+  font:
     text: Noto Sans JP         # 本文用フォント（Google Fontsから自動読み込み）
     code: JetBrains Mono       # コードブロック用等幅フォント
     
